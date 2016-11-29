@@ -1,0 +1,88 @@
+0.  TODO
+    BMP:
+        24-bit : 16.7 Million colors,
+        32-bit : 4.29 Billion colors,
+    JPEG:
+        24-bit : Supports 24-bit colour depth a.k.a. 16.7 million,
+    PNG:
+        16.7 Million colors,
+    GIF:
+        256 max
+    
+1.  TODO
+    GIF
+
+2.  TODO
+    Lossless writes the data in a more efficient way, while lossy is optimised for
+    file size.
+
+3.  TODO
+    JPEG
+
+4.  TODO
+    -  The system modifies the filename's first character to signal that it has
+       been deleted and that the directory entry can be recycled.
+       (Most OSs simply remove the file's reference from the containing dir.)
+
+    -  The system moves all of the file's FAT clusters to the hard drive's list
+       of free clusters.
+
+    And the file's data is never touched,
+
+5.  TODO
+    Write NULL bytes (or random characters) to every address on the disk,
+
+6.  TODO
+    A library for integer types A library for integer types 
+
+7.  TODO
+    uint8_t  : 1 Byte of unsigned integer,
+    uint32_t : 4 Byte of unsigned integer,
+    uint16_t : 2 Byte of unsigned integer,
+    int32_t  : 4 Byte of signed integer,
+
+8.  TODO
+    BYTE  :  1 byte,
+    DWORD :  4 bytes,
+    LONG  :  4 bytes,
+    WORD  :  2 bytes,
+
+9.  TODO
+    Hex     : 0X424d,
+    decimal : 66 77 OR 143,
+    ASCII   : BM,
+    
+10. TODO
+    bfSize is the total number of bytes in the image file,
+    biSize is the number of bytes in the info header file,
+    
+11. TODO
+    For uncompressed RGB bitmaps, 
+    
+    if biHeight is positive, 
+    the bitmap is a bottom-up DIB with the origin at the lower left corner. 
+    
+    If biHeight is negative, 
+    the bitmap is a top-down DIB with the origin at the upper left corner.
+    
+12. TODO
+    biBitCount.
+    
+13. TODO
+    If the file is not exist.
+    
+14. TODO
+    Because, We always want to read 1 Element, 
+    
+15. TODO
+    The padding wold be 3,
+    
+16. TODO
+    It moves the pointer to a specific location in the file,
+    
+17. TODO
+    Pointing to current file position,
+    
+18. TODO
+    
+    
